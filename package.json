@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": ".\\node_modules\\.bin\\tsc",
     "dev": "ts-node-dev --respawn"
   },
   "repository": {
@@ -20,7 +19,7 @@
   },
   "homepage": "https://github.com/saishu-h/ts-for-js-dev#readme",
   "devDependencies": {
-    "ts-node": "^8.6.2",
+    "ts-node": "^8.5.4",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.5"
   }
